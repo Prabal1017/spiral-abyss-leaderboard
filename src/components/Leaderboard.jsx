@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Leaderboard(props) {
+export default function Leaderboard() {
   return (
-    <div style={{color: props.mode === 'dark' ? 'white' : 'black'}}>
+    <div style={{color: 'black'}}>
       <h1>nigga</h1>
     </div>
   )

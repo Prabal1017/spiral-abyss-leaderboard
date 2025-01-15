@@ -13,12 +13,11 @@ import {
 function App() {
 
   // let [mode, setMode] = useState('light');
-
 return(
   <Router>
   <>
     <img src={Skirk} alt="Ruinguard" className="background-image" />
-    <Navbar  toggleMode={toggleMode}></Navbar>
+    <Navbar></Navbar>
     
     <div className="container my-3">
       <Routes>
